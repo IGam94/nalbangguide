@@ -25,7 +25,7 @@ body{
 .header .home{
     width:30px;
     height: 32px;
-    background: url('/img/ico_home.png');
+    background: url('../img/ico_home.png');
 }
 
 .aside {
@@ -150,7 +150,8 @@ body{
     height: 77px;
     display: flex;
     flex-wrap: wrap;
-    align-content: space-between;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .wrap .content .info li {
     list-style: disc;
@@ -203,6 +204,41 @@ body{
     text-align: center;
     background: #FFFFFF;
     border: 1px solid #D3D8DA;
+    border-radius: 4px;
+}
+.preparation-list {
+    padding:0 20px;
+}
+.preparation-list > li {
+    margin-top: 60px;
+}
+
+.preparation-list .preparation-title {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+.preparation-list .preparation-desc {
+    margin-top:24px;
+    padding-left: 20px;
+}
+.preparation-list .preparation-desc li {
+    list-style-type: disc;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+.preparation-info {
+    width: 100%;
+    padding: 20px;
+    line-height: 19px;
+    margin-top: 30px;
+    background: #F4F5F6;
+    border: 1px solid #DDDDDD;
     border-radius: 4px;
 }
 .footer{
