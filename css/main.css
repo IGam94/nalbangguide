@@ -1,0 +1,117 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 1175px;
+    background: url(../img/Rectangle\ 8.png) no-repeat;
+    background-size : cover;
+}
+.go-nalbang{
+    box-sizing: border-box;
+    position: absolute;
+    width: 190px;
+    height: 60px;
+    right: 40px;
+    top: 40px;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.container .wrap {
+    position: relative;
+    max-width: 1576px;
+    margin:0 auto;
+}
+.container .wrap .title01 {
+    padding-top: 7.5vw;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 58px;
+    /* identical to box height */
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+.container .wrap .title02 {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 145px;
+    /* identical to box height */
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+.container .wrap .title02 span{
+    color:#FF5242;
+}
+.link-list {
+    margin-top: 98px;
+    margin-bottom:143px;
+}
+.link-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap:25px;
+}
+.link-list li {
+    width: 372px;
+    height: 280px;
+}
+.link-list li.link01 {
+    background: url(../img/link01.png);
+}
+.link-list li.link02 {
+    background: url(../img/link02.png);
+}
+.link-list li.link03 {
+    background: url(../img/link03.png);
+}
+.link-list li.link04 {
+    background: url(../img/link04.png);
+}
+.link-list li.link05 {
+    background: url(../img/link05.png);
+}
+.link-list li.link06 {
+    background: url(../img/link06.png);
+}
+.link-list li.link07 {
+    background: url(../img/link07.png);
+}
+
+.link-more{
+    display:none;
+    background: url(../img/linkMore.png);
+}
+
+.footer{
+    position: relative;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-content: center;
+    bottom: 0px;
+    padding:0 40px;
+    width: 100%;
+    min-width: 1576px;
+    height:60px;
+    background-color: #333;
+    color: #fff;
+}
+.footer p {
+    height: 0;
+}
+.footer div{
+    display: flex;
+}
+.footer div .ico-email {
+    width: 27px;
+    height: 20px;
+    margin-right:15px; 
+
+}
+.footer div .email {
+    margin-right: 10px;
+}
