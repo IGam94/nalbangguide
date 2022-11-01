@@ -71,6 +71,10 @@ body{
     padding-bottom: 30px;
     color: #000000;
 }
+.wrap .content .title-desc li{
+    list-style-type: disc;
+    margin-left: 20px;
+}
 .wrap .content .title::after {
     position: absolute;
     left:0px;
