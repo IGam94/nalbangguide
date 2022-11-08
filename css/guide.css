@@ -34,6 +34,9 @@
 .mt30{
     margin-top: 30px !important;
 }
+.mt60{
+    margin-top: 60px !important; 
+}
 .guide04 .content img{
     max-width: 100%;
 }
@@ -168,7 +171,8 @@ body{
     line-height: 22px;
     color: #000000;
 }
-.wrap .content .order-list li .order-title a{
+.wrap .content a.goLink{
+    display: inline-block;
     width: 91px;
     height: 22px;
     font-weight: 500;
@@ -176,6 +180,7 @@ body{
     line-height: 22px;
     margin-left: 10px;
     color: #333333;
+    background-color: #fff;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     text-align: center;
@@ -299,7 +304,7 @@ body{
     content: '';
     position: absolute;
     top: 8px;
-    left:-10px;
+    left:-13px;
     width: 3px;
     height: 3px;
     border-radius: 100%;
@@ -329,14 +334,34 @@ body{
     color:#FF5242;
     font-size: 16px;
 }
-.preparation-list .preparation-desc .sub-desc li {
+.wrap .content .sub-desc {
+    display: block !important;
+}
+.wrap .content .sub-desc p {
     position: relative;
     font-size: 12px;
     line-height: 16px;
     margin-left: 20px;
     color: #876BFE;
 }
-.preparation-list .preparation-desc .sub-desc li::after {
+.wrap .content .sub-desc p::after {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left:-10px;
+    width: 2px;
+    height: 2px;
+    border-radius: 100%;
+    background-color: #876BFE;
+}
+.wrap .content .sub-desc li {
+    position: relative;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 20px;
+    color: #876BFE;
+}
+.wrap .content .sub-desc li::after {
     content: '';
     position: absolute;
     top: 6px;
@@ -365,13 +390,16 @@ body{
     border: 1px solid #DDDDDD;
     border-radius: 4px;
 }
+.title a.active {
+    background: #FF5242;
+}
 .custom-btn {
     display: inline-block;
     width: 148px;
     height: 44px;
     line-height: 44px;
     text-align: center;
-    background: #FF5242;
+    background: #C9C9C9;
     border-radius: 4px;
     font-weight: 700;
     font-size: 14px;
@@ -391,8 +419,28 @@ body{
     color: #FFFFFF;
     margin-left: 10px;
 }
-
-
+.download-btn {
+    text-align: center;
+}
+.download-btn a{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 270px;
+    height: 60px;
+    background: #484444;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    margin:30px auto 0;
+    color: #FFFFFF;
+}
+.info-title {
+    font-size: 14px;
+    font-weight: bold;
+}
 .footer{
     position: relative;
     display:flex;
