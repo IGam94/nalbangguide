@@ -1,20 +1,4 @@
 
-.content img{
-    max-width: 100%;
-}
-.guide04 .wrap .content .info{
-    margin-top: 30px;
-    padding:20px;
-}
-.guide04 .info p {
-    margin-bottom: 30px;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 25px;
-}
-.guide04 .info li {
-    margin-left: 20px;
-}
 body{
     background-color: #F9F9F9;
 }
@@ -78,9 +62,6 @@ body{
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
-.guide02 .wrap{
-    padding-bottom: 30px;
-}
 .wrap .content .title {
     position: relative;
     font-weight: 700;
@@ -111,9 +92,6 @@ body{
 }
 .wrap .content .order-list {
     margin-bottom: 60px;
-}
-.guide02 .wrap .content .order-list {
-    margin-bottom: 30px;
 }
 .wrap .content .order-list li *{
     display: inline-block;
@@ -243,6 +221,9 @@ body{
 .preparation-list > li {
     margin-top: 60px;
 }
+.preparation-list > li > img {
+    margin-top: 30px;
+}
 .preparation-list .preparation-title {
     margin-top: 30px;
     font-weight: 700;
@@ -251,8 +232,7 @@ body{
     color: #000000;
 }
 .preparation-list ul.preparation-desc {
-    margin-top:24px;
-    padding-left: 20px;
+
 }
 .preparation-list ul.preparation-desc li {
     position: relative;
@@ -262,7 +242,7 @@ body{
     line-height: 19px;
     color: #000000;
 }
-.preparation-list ul.preparation-desc li::after {
+.preparation-list ul.preparation-desc > li::after {
     content: '';
     position: absolute;
     top: 8px;
@@ -282,17 +262,13 @@ body{
     margin:24px 0 0px;
 }
 .preparation-list ol.preparation-desc li {
-    margin-top: 10px;
+    margin-top: 24px;
     color: #333;
 }
 .pl35 {
     padding-left: 35px !important;
 }
 .preparation-list .preparation-desc li span {
-    color:#FF5242;
-    font-size: 16px;
-}
-.twoline-list li span {
     color:#FF5242;
     font-size: 16px;
 }
@@ -339,9 +315,19 @@ body{
     max-width: 795px;
     margin-top: 10px;
 }
-.twoline-list li {
+.twoline-list .twoline-wrap {
     width: 50%;
     margin-top: 20px;
+}
+.twoline-list .twoline-wrap li {
+    margin-top: 24px;
+}
+.twoline-list .twoline-wrap p {
+    margin-top: 10px;
+}
+.twoline-list .twoline-wrap span {
+    color:#FF5242;
+    font-size: 16px;
 }
 .preparation-info {
     width: 100%;
