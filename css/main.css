@@ -25,6 +25,7 @@
     line-height: 60px;
     color: #FFFFFF;
     text-align: center;
+    z-index: 100;
 }
 .container .wrap {
     position: relative;
