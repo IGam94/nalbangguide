@@ -337,6 +337,7 @@ body{
 }
 .twoline-list .twoline-wrap {
     width: 50%;
+    min-width: 250px;
 }
 .twoline-list .twoline-wrap li {
     margin-top: 24px;
