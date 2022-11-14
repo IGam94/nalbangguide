@@ -1,5 +1,6 @@
 .content img{
     max-width: 100%;
+    margin-top: 30px;
 }
 body{
     background-color: #F9F9F9;
@@ -242,7 +243,7 @@ body{
 }
 .preparation-list ul.preparation-desc li {
     position: relative;
-    margin-top: 10px;
+    margin-top: 24px;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
@@ -268,7 +269,7 @@ body{
     margin:24px 0 0px;
 }
 .preparation-list ol.preparation-desc li {
-    margin-top: 10px;
+    margin-top: 24px;
     color: #333;
 }
 .pl35 {

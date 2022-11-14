@@ -209,6 +209,10 @@ input[type=text]::-ms-clear {
 .mt20{
     margin-top: 20px !important;
 }
+.mt24{
+    margin-top: 24px !important;
+}
+
 .mt30{
     margin-top: 30px !important;
 }
