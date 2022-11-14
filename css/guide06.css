@@ -1,4 +1,7 @@
 
+.content img{
+    max-width: 100%;
+}
 body{
     background-color: #F9F9F9;
 }
@@ -135,10 +138,37 @@ body{
 }
 .wrap .content .info{
     width: 100%;
-    padding:20px 40px 20px;
+    padding:20px;
     background-color: #F4F5F6;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
+}
+.wrap .content .info .info-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+.wrap .content .info .info-desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.wrap .content .info .info-list {
+    margin-top: 10px;
+    padding-left:40px;
+}
+.wrap .content .info .info-list li::after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left:-13px;
+    width: 3px;
+    height: 3px;
+    border-radius: 100%;
+    background-color: #000;
 }
 .wrap .content .info img {
     width: 56px;
@@ -158,16 +188,6 @@ body{
     font-size: 14px;
     line-height: 19px;
     color: #000000;
-}
-.wrap .content .info li::after {
-    content: '';
-    position: absolute;
-    top: 8px;
-    left:-10px;
-    width: 3px;
-    height: 3px;
-    border-radius: 100%;
-    background-color: #000;
 }
 .wrap .content .signup-guide{
     position: relative;
@@ -313,11 +333,10 @@ body{
     display:flex;
     flex-wrap: wrap;
     max-width: 795px;
-    margin-top: 10px;
+    margin-top: 6px;
 }
 .twoline-list .twoline-wrap {
     width: 50%;
-    margin-top: 20px;
 }
 .twoline-list .twoline-wrap li {
     margin-top: 24px;
